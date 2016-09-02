@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popwindow_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_signin_btn_dark_text_default"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/item_popwindow_relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_popwindow_qiehuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:text="切换频道"
+            android:textSize="14sp"
+            android:textColor="#DA70D6"/>
+
+        <ImageView
+            android:id="@+id/item_gridview_returnbtn"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="15dp"
+            android:background="@mipmap/arrow_grey_up" />
+
+        <GridView
+
+            android:id="@+id/item_gridview_popwindow"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/tv_popwindow_qiehuan"
+            android:numColumns="4" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

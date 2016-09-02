@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--点击栏目里面的item 跳转的下一个界面-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/lanmujump_rl"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff">
+
+        <ImageView
+            android:background="@mipmap/abc_ic_ab_back_holo_light"
+            android:id="@+id/lanmujump_image_back"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="7dp"
+            />
+
+        <TextView
+            android:id="@+id/lanmujump_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:layout_centerInParent="true"
+            android:text="qqq"
+            android:textSize="20sp"
+             />
+
+    </RelativeLayout>
+    <ListView
+        android:id="@+id/lanmujump_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+
+</LinearLayout>

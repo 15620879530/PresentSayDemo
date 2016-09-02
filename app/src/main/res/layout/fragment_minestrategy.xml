@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--个人界面下面攻略Fragment 的布局文件-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/mine_strategy_relativelayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/mine_heart2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            android:src="@mipmap/ic_holder_favourite" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mine_heart2"
+            android:text="喜欢的攻略都在这里哦" />
+
+    </RelativeLayout>
+    <!--自定义listview-->
+    <lanou.presentsay.ui.ListViewForScrollView
+        android:id="@+id/mine_strategy_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"></lanou.presentsay.ui.ListViewForScrollView>
+</LinearLayout>
+    </ScrollView>
+</LinearLayout>

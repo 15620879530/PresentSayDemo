@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:color="@color/common_signin_btn_dark_text_disabled" android:state_checked="false"/>
+    <item android:color="@color/colorAccent" android:state_checked="true"/>
+</selector>

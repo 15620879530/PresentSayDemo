@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--单品页面~~~~的布局~~~两个横向排列的listview-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <!--滚动条的意思...因为单品界面由两个listview组成左面的listview要把滚动条去掉-->
+            <ListView
+
+                android:id="@+id/lift_listview"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:scrollbars="none"></ListView>
+
+            <ListView
+                android:id="@+id/right_listview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></ListView>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

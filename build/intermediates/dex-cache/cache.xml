@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/dllo/Desktop/DLA160606/AndroidAdvanced/PresentSay/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="82ce13fd19cdfde0e392f03c27edeba8d4333648">
+        <dex dex="/Users/dllo/Desktop/DLA160606/AndroidAdvanced/PresentSay/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-23.3.0_d888e0d1c026546dc9e543a1521f02453e8a38b2.jar" />
+    </item>
+    <item
+        jar="/Users/dllo/Desktop/DLA160606/AndroidAdvanced/PresentSay/app/libs/BmobSDK_3.5.1_20160719.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="a8118464e2cbf5ba630913863e9473eea365d5ca">
+        <dex dex="/Users/dllo/Desktop/DLA160606/AndroidAdvanced/PresentSay/app/build/intermediates/pre-dexed/debug/BmobSDK_3.5.1_20160719_a2ea890548b3ed3a6f6e318500aa1b6be5549bbf.jar" />
+    </item>
+    <item
+        jar="/Users/dllo/Desktop/DLA160606/AndroidAdvanced/PresentSay/app/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/2.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="/Users/dllo/Desktop/DLA160606/AndroidAdvanced/PresentSay/app/build/intermediates/pre-dexed/debug/de.hdodenhof-circleimageview-2.1.0_f7f7a6e6181fd256be3c34fcc44f9f4c06769449.jar" />
+    </item>
+    <item
+        jar="/Users/dllo/.gradle/caches/modules-2/files-2.1/eu.the4thfloor.volley/com.android.volley/2015.05.28/b0b08cc0ac897e596abe6b263a9507cba875b705/com.android.volley-2015.05.28.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="b0b08cc0ac897e596abe6b263a9507cba875b705">
+        <dex dex="/Users/dllo/Desktop/DLA160606/AndroidAdvanced/PresentSay/app/build/intermediates/pre-dexed/debug/com.android.volley-2015.05.28_4e77161c1a9fadcc7f763d5581c103bb66afac85.jar" />
+    </item>
+    <item
+        jar="/Users/dllo/Desktop/DLA160606/AndroidAdvanced/PresentSay/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/dllo/Desktop/DLA160606/AndroidAdvanced/PresentSay/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.4.0_1018225242f4e5830e11dd7f80b468a7b0c13505.jar" />
+    </item>
+    <item
+        jar="/Users/dllo/Desktop/DLA160606/AndroidAdvanced/PresentSay/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="/Users/dllo/Desktop/DLA160606/AndroidAdvanced/PresentSay/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-8.1.0_58b82f46e4421336667d16741c7ac826daff333c.jar" />
+    </item>
+    <item
+        jar="/Users/dllo/Desktop/DLA160606/AndroidAdvanced/PresentSay/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/dllo/Desktop/DLA160606/AndroidAdvanced/PresentSay/app/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_93f883c4af8e9a703c389bc9aed39be671ce4a81.jar" />
+    </item>
+    <item
+        jar="/Users/dllo/Desktop/DLA160606/AndroidAdvanced/PresentSay/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Users/dllo/Desktop/DLA160606/AndroidAdvanced/PresentSay/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.4.0_9924db16b7c4bd36eec36d7be1d96bd0fdae201f.jar" />
+    </item>
+    <item
+        jar="/Users/dllo/Desktop/DLA160606/AndroidAdvanced/PresentSay/app/libs/okhttp-3.3.1.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="19047bdb6a4fc00a44124f64ca98e88fc204e7e3">
+        <dex dex="/Users/dllo/Desktop/DLA160606/AndroidAdvanced/PresentSay/app/build/intermediates/pre-dexed/debug/okhttp-3.3.1_f982d1065c7e036b24390820c1de1bee2aa58467.jar" />
+    </item>
+    <item
+        jar="/Users/dllo/Desktop/DLA160606/AndroidAdvanced/PresentSay/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/dllo/Desktop/DLA160606/AndroidAdvanced/PresentSay/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.4.0_1da077c5129a2d64d2a31b3649b926ef552a3407.jar" />
+    </item>
+    <item
+        jar="/Users/dllo/Desktop/DLA160606/AndroidAdvanced/PresentSay/app/libs/gson-2.6.2.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="f1bc476cc167b18e66c297df599b2377131a8947">
+        <dex dex="/Users/dllo/Desktop/DLA160606/AndroidAdvanced/PresentSay/app/build/intermediates/pre-dexed/debug/gson-2.6.2_0dc97848c3f91990c4f79dbb52b5fa692fd15c06.jar" />
+    </item>
+    <item
+        jar="/Users/dllo/Desktop/tools/sdk/android-sdks/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/dllo/Desktop/DLA160606/AndroidAdvanced/PresentSay/app/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_c3a63e4284765f6741b549803de1e9c8209109f5.jar" />
+    </item>
+    <item
+        jar="/Users/dllo/Desktop/DLA160606/AndroidAdvanced/PresentSay/app/libs/lite-orm-1.9.2.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="7691b96fd27f2991cb4779c22f9089bf268945c8">
+        <dex dex="/Users/dllo/Desktop/DLA160606/AndroidAdvanced/PresentSay/app/build/intermediates/pre-dexed/debug/lite-orm-1.9.2_4d84c17a1a28e1ace58d467fce03c5c1c36b0f42.jar" />
+    </item>
+    <item
+        jar="/Users/dllo/Desktop/DLA160606/AndroidAdvanced/PresentSay/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/dllo/Desktop/DLA160606/AndroidAdvanced/PresentSay/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.4.0_0d91515102c4f3d007445321b137af8afba66723.jar" />
+    </item>
+    <item
+        jar="/Users/dllo/Desktop/DLA160606/AndroidAdvanced/PresentSay/app/build/intermediates/exploded-aar/com.youth.banner/banner/1.2.8/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="e9dac7ce253fc16a109f8d1a0440ebd8de075e99">
+        <dex dex="/Users/dllo/Desktop/DLA160606/AndroidAdvanced/PresentSay/app/build/intermediates/pre-dexed/debug/com.youth.banner-banner-1.2.8_b7094cb386fb042c8fc3be8bbd5ce90583e1e7a7.jar" />
+    </item>
+    <item
+        jar="/Users/dllo/Desktop/DLA160606/AndroidAdvanced/PresentSay/app/build/intermediates/exploded-aar/com.android.support/gridlayout-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="7c4c1fcc34aca536e3389c31527fb3c941b80266">
+        <dex dex="/Users/dllo/Desktop/DLA160606/AndroidAdvanced/PresentSay/app/build/intermediates/pre-dexed/debug/com.android.support-gridlayout-v7-23.4.0_d400c7e5ed6917e651c79b81c136f2d591a35df6.jar" />
+    </item>
+    <item
+        jar="/Users/dllo/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.3.2/d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27/picasso-2.3.2.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27">
+        <dex dex="/Users/dllo/Desktop/DLA160606/AndroidAdvanced/PresentSay/app/build/intermediates/pre-dexed/debug/picasso-2.3.2_b7194cd20dd186d6059f263a8635bd8fa8fb1ab1.jar" />
+    </item>
+    <item
+        jar="/Users/dllo/Desktop/DLA160606/AndroidAdvanced/PresentSay/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="/Users/dllo/Desktop/DLA160606/AndroidAdvanced/PresentSay/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.4.0_f04f0a34a76f46e8e9d3f7a1a7d6df66e10f8452.jar" />
+    </item>
+    <item
+        jar="/Users/dllo/Desktop/DLA160606/AndroidAdvanced/PresentSay/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/dllo/Desktop/DLA160606/AndroidAdvanced/PresentSay/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.4.0_b8a446b6b297b0d7cda3908477938244a77ad2a9.jar" />
+    </item>
+    <item
+        jar="/Users/dllo/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.6.1/86b122e640af09b0723e1fa44083c354ba6d9089/glide-3.6.1.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="86b122e640af09b0723e1fa44083c354ba6d9089">
+        <dex dex="/Users/dllo/Desktop/DLA160606/AndroidAdvanced/PresentSay/app/build/intermediates/pre-dexed/debug/glide-3.6.1_30734b16b22ac01f8467196547ffeda2b650e42f.jar" />
+    </item>
+    <item
+        jar="/Users/dllo/Desktop/DLA160606/AndroidAdvanced/PresentSay/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="/Users/dllo/Desktop/DLA160606/AndroidAdvanced/PresentSay/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appindexing-8.1.0_83a026738ed6006e9eb507f8ddde82f5d99a43c5.jar" />
+    </item>
+    <item
+        jar="/Users/dllo/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/dllo/Desktop/DLA160606/AndroidAdvanced/PresentSay/app/build/intermediates/pre-dexed/debug/library-2.4.0_a7ed7f9b1fc99a7fd30cbc830ecdd0d80bed9f60.jar" />
+    </item>
+    <item
+        jar="/Users/dllo/.gradle/caches/modules-2/files-2.1/org.greenrobot/eventbus/3.0.0/ddd99896e9569eaababbe81b35d80e1b91c4ad85/eventbus-3.0.0.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="/Users/dllo/Desktop/DLA160606/AndroidAdvanced/PresentSay/app/build/intermediates/pre-dexed/debug/eventbus-3.0.0_577cf70ac8ff865bdacff31a3fb4f7a7831e12da.jar" />
+    </item>
+    <item
+        jar="/Users/dllo/Desktop/DLA160606/AndroidAdvanced/PresentSay/app/libs/rxjava-1.1.6.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="2586312cd2b8a511e4c6236736f5a039fc0f2273">
+        <dex dex="/Users/dllo/Desktop/DLA160606/AndroidAdvanced/PresentSay/app/build/intermediates/pre-dexed/debug/rxjava-1.1.6_884f60a9de093428a68c2db62e4afe3e4e0365f6.jar" />
+    </item>
+    <item
+        jar="/Users/dllo/Desktop/DLA160606/AndroidAdvanced/PresentSay/app/libs/rxandroid-1.2.0.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="927e8ef5711b115b65b2f35495d77352be2b3c09">
+        <dex dex="/Users/dllo/Desktop/DLA160606/AndroidAdvanced/PresentSay/app/build/intermediates/pre-dexed/debug/rxandroid-1.2.0_541de22ef062d447c92a0d4ddb976cd84fcf57e1.jar" />
+    </item>
+    <item
+        jar="/Users/dllo/Desktop/DLA160606/AndroidAdvanced/PresentSay/app/libs/okio-1.7.0.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="1dc44f4cec20a64cebb68b90b4218f82ac7948b1">
+        <dex dex="/Users/dllo/Desktop/DLA160606/AndroidAdvanced/PresentSay/app/build/intermediates/pre-dexed/debug/okio-1.7.0_f40c430d439261f5aff828fe319d1b1b62e27467.jar" />
+    </item>
+
+</items>

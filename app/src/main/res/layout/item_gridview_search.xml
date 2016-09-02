@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--搜索页面下面字体内容 就是RecycleView 的布局-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:textColor="@color/colorAccent"
+        android:id="@+id/search_view_textview"
+        android:layout_width="80dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:background="@drawable/search"
+        android:padding="10dp"
+        android:textSize="15sp" />
+
+
+</LinearLayout>

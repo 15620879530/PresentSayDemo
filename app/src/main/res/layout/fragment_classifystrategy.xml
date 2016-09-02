@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="栏目"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/tv_lanmu_seeall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:paddingLeft="250dp"
+                    android:text="查看全部"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_classify_strategy"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"/>
+
+
+            <!--classifyGv 品类的Gv-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="品类"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/tv_pinlei_seeall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:paddingLeft="230dp"
+                        android:text="查看全部"
+                        android:textSize="10sp" />
+                </LinearLayout>
+
+                <GridView
+                    android:id="@+id/gv_pinlei"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:numColumns="2"
+                    />
+            </LinearLayout>
+            <!--styleGv  风格的Gv -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="风格"
+                        android:textSize="10sp" />
+
+                </LinearLayout>
+
+                <GridView
+                    android:id="@+id/gv_fengge"
+                    android:layout_width="match_parent"
+                    android:layout_height="240dp"
+                    android:numColumns="2" />
+            </LinearLayout>
+            <!--对象的Gv-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="对象"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/tv_duixiang_seeall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:paddingLeft="230dp"
+                        android:text="查看全部"
+                        android:textSize="10sp" />
+                </LinearLayout>
+
+                <GridView
+                    android:id="@+id/gv_duixiang"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:numColumns="2" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

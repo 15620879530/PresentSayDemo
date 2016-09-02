@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?><!--热门页面布局-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--热门的标题栏-->
+    <include layout="@layout/hot_title" />
+    <!--下拉刷新-->
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/hot_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="10dp"
+        >
+
+    <!--网格布局-->
+    <GridView
+        android:id="@+id/my_hot_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="6dp"
+        android:numColumns="2"
+        android:verticalSpacing="10dp">
+    </GridView>
+
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>

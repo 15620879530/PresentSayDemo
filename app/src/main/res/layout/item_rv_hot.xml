@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="170dp"
+    android:layout_height="250dp"
+    android:background="@drawable/hot_stort"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical">
+    <!--descendantFocusability="blocksDescendants"
+    他的作用是解决点击item时
+    出现item没被点击而他内部的子控件被点击的这种情况-->
+    <!--android:scaleType 不按比例缩放图片，目标是把图片塞满整个View。-->
+    <ImageView
+        android:id="@+id/iv_hot_urlimg"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_hot_name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="#242424" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:id="@+id/tv_hot_price"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:button="@null"
+                android:id="@+id/my_hot_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/like" />
+
+            <TextView
+                android:id="@+id/tv_hot_likescount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#242424" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

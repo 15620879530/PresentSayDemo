@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <ImageView
+        android:id="@+id/item_mine_strategy_image"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_launcher" />
+    <!--FIT_XY / fitXY  把图片不按比例扩大/缩小到View的大小显示-->
+
+    <TextView
+        android:text="hahh"
+        android:textColor="#141414"
+        android:id="@+id/item_mine_strategy_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/item_mine_strategy_image" />
+
+    <TextView
+        android:textColor="#141414"
+        android:id="@+id/item_mine_strategy_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_toRightOf="@id/item_mine_strategy_image"
+        android:maxLines="2" />
+
+</LinearLayout>
