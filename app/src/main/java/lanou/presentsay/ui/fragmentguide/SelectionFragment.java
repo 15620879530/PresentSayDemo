@@ -115,7 +115,7 @@ public class SelectionFragment extends AbsBaseFragment implements Banner.OnBanne
      */
     private void initBanner() {
         //设置小圆点
-        banner.setBannerStyle(Banner.LAYOUT_MODE_CLIP_BOUNDS);
+        banner.setBannerStyle(Banner.ACCESSIBILITY_LIVE_REGION_ASSERTIVE);
         //设置位置居中
         banner.setIndicatorGravity(Banner.CENTER);
         //设置轮播时间

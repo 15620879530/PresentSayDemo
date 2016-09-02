@@ -12,7 +12,6 @@ import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.PopupWindow;
 import android.widget.RelativeLayout;
-import android.widget.Spinner;
 
 import lanou.presentsay.R;
 import lanou.presentsay.ui.activity.SearchActitvty;
@@ -31,7 +30,6 @@ public class GuideFragment extends AbsBaseFragment implements View.OnClickListen
     private TabLayout tl;
     private GuideAdapter guideAdapter;
     private ImageView iv;
-    private Spinner sp;
     private ImageView window;
     private PopupWindow popupWindow;
     private GuidePopWindowBean bean;
@@ -42,6 +40,11 @@ public class GuideFragment extends AbsBaseFragment implements View.OnClickListen
     @Override
     protected int setlayout() {
         return R.layout.fragment_guide;
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
     }
 
     @Override
