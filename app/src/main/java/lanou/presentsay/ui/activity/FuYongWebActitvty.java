@@ -20,6 +20,7 @@ public class FuYongWebActitvty extends AbsBaseActivity implements View.OnClickLi
     private WebView webView;
     private String urls;
     private ImageView back;
+    private ImageView fenxiang;
 
 
     @Override
@@ -31,11 +32,13 @@ public class FuYongWebActitvty extends AbsBaseActivity implements View.OnClickLi
     protected void initView() {
         webView = bindView(R.id.selection_listview_webview);
         back = bindView(R.id.setup_back);
+        fenxiang = bindView(R.id.fenxiang);
     }
 
     @Override
     protected void initData() {
         back.setOnClickListener(this);
+        fenxiang.setOnClickListener(this);
         Intent intent = getIntent();
         Bundle bundle = intent.getExtras();
         urls = bundle.getString("key");
@@ -68,6 +71,8 @@ public class FuYongWebActitvty extends AbsBaseActivity implements View.OnClickLi
             case R.id.setup_back:
                 finish();
                 break;
+            case R.id.fenxiang:
+
         }
 
     }
