@@ -47,6 +47,7 @@
         <activity android:name=".ui.activity.SearchNextActivity"/>
         <activity android:name=".ui.activity.LoginActivity"/>
         <activity android:name=".ui.activity.MyInformationActivity"/>
+        <activity android:name=".ui.activity.GradeActivity"/>
 
     </application>
 

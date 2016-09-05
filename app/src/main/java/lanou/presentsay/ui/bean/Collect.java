@@ -15,8 +15,9 @@ public class Collect extends BmobObject {
     private String name;
     private String url;
 
-    //指定自增，每个对象需要有一个主键
+    //指定自增，每个对象需要有一个主键 orm数据库的...
     @PrimaryKey(AssignType.AUTO_INCREMENT)
+
     private int id;
 
     public int getId() {

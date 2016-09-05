@@ -6,7 +6,8 @@ import android.content.Context;
 import cn.bmob.v3.Bmob;
 
 /**
- *
+ * 放唯一的context
+ * Application 是当前应用,只存在一个
  * Created by dllo on 16/8/15.
  */
 public class MyApp extends Application{
@@ -17,6 +18,12 @@ public class MyApp extends Application{
         super.onCreate();
         mContect = getApplicationContext();
         Bmob.initialize(this,"622b13fd04453769fe073dd562098415");
+
+
+
+
+
+
     }
     public static Context getmContect(){
         return mContect;

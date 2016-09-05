@@ -8,7 +8,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import lanou.presentsay.R;
-import lanou.presentsay.ui.bean.TiaoXuanBean;
+import lanou.presentsay.ui.bean.XuanliBean;
 import lanou.presentsay.ui.tools.MyApp;
 import lanou.presentsay.ui.tools.NetTool;
 
@@ -17,9 +17,9 @@ import lanou.presentsay.ui.tools.NetTool;
  */
 public class TiaoXuanAdapter extends BaseAdapter {
     private static final String TAG = "TAG_TiaoXuanAdapter";
-    private TiaoXuanBean bean;
+    private XuanliBean bean;
 
-    public void setBean(TiaoXuanBean bean) {
+    public void setBean(XuanliBean bean) {
         this.bean = bean;
         notifyDataSetChanged();
     }
@@ -50,7 +50,7 @@ public class TiaoXuanAdapter extends BaseAdapter {
         }else {
             viewHodler = (ViewHodler) convertView.getTag();
         }
-        TiaoXuanBean.DataBean.ItemsBean beans = bean.getData().getItems().get(position);
+        XuanliBean.DataBean.ItemsBean beans = bean.getData().getItems().get(position);
         viewHodler.nameTv.setText(beans.getName());
         viewHodler.likesTv.setText(String.valueOf(beans.getLikes_count()));
         viewHodler.priceTv.setText(beans.getPrice());
@@ -59,6 +59,9 @@ public class TiaoXuanAdapter extends BaseAdapter {
 
         return convertView;
     }
+
+
+
 
     private class ViewHodler {
         private ImageView urlImgTv;

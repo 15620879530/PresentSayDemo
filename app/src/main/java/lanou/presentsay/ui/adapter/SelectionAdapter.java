@@ -88,7 +88,7 @@ public class SelectionAdapter extends BaseAdapter {
                 CheckBox checkBox = (CheckBox) v;
                 arrayList.getData().getItems().get(position).setCheckBox(checkBox.isChecked());
                BmobUser bmobUser = BmobUser.getCurrentUser();
-                arrayList.getData().getItems().get(position).setCheckBox(checkBox.isChecked());
+
                 if(bmobUser !=null){
                     if (checkBox.isChecked()){
                         Collect collect = new Collect();

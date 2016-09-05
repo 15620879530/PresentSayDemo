@@ -68,7 +68,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="100dp"
                 android:layout_marginTop="10dp"
-
                 android:drawablePadding="10dp"
                 android:textSize="15sp" />
         </LinearLayout>
@@ -115,6 +114,7 @@
             android:background="#cecece" />
 
         <LinearLayout
+
             android:id="@+id/setup_grade"
             android:layout_width="match_parent"
             android:layout_height="35dp"
@@ -129,6 +129,7 @@
                 android:layout_marginTop="5dp" />
 
             <TextView
+
                 android:layout_width="match_parent"
                 android:layout_height="28dp"
                 android:layout_marginLeft="20dp"
